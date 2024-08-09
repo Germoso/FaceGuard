@@ -31,19 +31,19 @@ python registrar_usuario.py
 
 ### Reconocimiento Facial
 
-El script para reconocimiento facial (`face_recognition.py`) compara la imagen capturada con las imágenes almacenadas en la carpeta `known_images`. Si la cara no se reconoce, la computadora se bloquea.
+El script para reconocimiento facial (`main.py`) compara la imagen capturada con las imágenes almacenadas en la carpeta `known_images`. Si la cara no se reconoce, la computadora se bloquea.
 
 Asegúrate de tener imágenes conocidas en la carpeta `known_images`.
 
 Ejecuta el script de reconocimiento facial:
 
 ```sh
-python face_recognition.py
+python main.py
 ```
 
 ## Configuración del Intervalo de Tiempo
 
-En el script face_recognition.py, puedes configurar el intervalo de tiempo entre cada reconocimiento facial ajustando los valores min_interval y max_interval en la función main.
+En el script main.py, puedes configurar el intervalo de tiempo entre cada reconocimiento facial ajustando los valores min_interval y max_interval en la función main.
 
 Ejemplo para configurar el intervalo:
 
